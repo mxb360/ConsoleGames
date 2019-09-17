@@ -5,8 +5,8 @@
 
 /* 棋子名字 */
 static const char *chess_name[][7] = {
-    {"車", "馬", "象", "士", "帥", "炮", "兵",},
-    {"車", "馬", "相", "士", "將", "炮", "卒",},
+    {"車", "馬", "相", "仕", "帥", "炮", "兵",},
+    {"車", "馬", "象", "士", "將", "炮", "卒",},
 };
 
 /* 主函数 */
@@ -90,7 +90,7 @@ static void set_chess(ChineseChess *cc, int x, int y, int type, int chess, int c
     if (type == RED_CHESS)
         choose ? set_color(CHOOSE_CLR, RED) : set_color(GRID_BK_CLR, RED);
     else
-        choose ? set_color(CHOOSE_CLR, LIGHT_BLUE) : set_color(GRID_BK_CLR, LIGHT_BLUE);
+        choose ? set_color(CHOOSE_CLR, BLUE) : set_color(GRID_BK_CLR, BLUE);
 
     set_cursorxy(x, y);
     strprint(chess_name[type - 1][chess - 1]);

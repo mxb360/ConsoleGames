@@ -7,8 +7,8 @@
 #define WINDOW_HEIGHT        16
 
 #define BK_CLR               LIGHT_AQUA
-#define ISTR_CLR             LIGHT_BLUE
-#define TSTR_CLR             LIGHT_RED
+#define ISTR_CLR             BLUE
+#define TSTR_CLR             RED
 #define ASTR_CLR             GREEN
 
 #define OPTIONS_CHOOSE_COLOR LIGHT_PURPLE

@@ -44,9 +44,9 @@
 #define TSTR_CLR     LIGHT_RED
 #define ASTR_CLR     GREEN
 #define FSTR_CLR     RED
-#define ISTR_CLR     LIGHT_BLUE
-#define OSTR_CLR     LIGHT_RED
-#define OBK_CLR      LIGHT_GREEN
+#define ISTR_CLR     BLUE
+#define OSTR_CLR     RED
+#define OBK_CLR      GREEN
 
 /* 内部函数 */
 typedef struct {
